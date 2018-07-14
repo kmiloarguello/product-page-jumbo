@@ -1,0 +1,27 @@
+{
+  "name": "product-page-jumbo",
+  "version": "0.0.1",
+  "description": "Layout of Product of Jumbo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmiloarguello/product-page-jumbo.git"
+  },
+  "keywords": [
+    "Jumbo",
+    "Cencosud",
+    "Layout",
+    "Cssgrid",
+    "Webpack",
+    "React"
+  ],
+  "author": "@kmiloarguello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmiloarguello/product-page-jumbo/issues"
+  },
+  "homepage": "https://github.com/kmiloarguello/product-page-jumbo#readme"
+}
