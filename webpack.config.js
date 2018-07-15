@@ -6,7 +6,7 @@ module.exports = {
   entry: ["babel-polyfill", path.resolve(__dirname, "src/index.js")],
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "js/[name].js"
+    filename: "js/product-page-jumbo-[name].js"
   },
   module: {
     rules: [
@@ -41,7 +41,7 @@ module.exports = {
           loader: "url-loader",
           options: {
             limit: 1000000,
-            name: "img/BMW/[name].[ext]"
+            name: "img/BMW/product-page-jumbo-[name].[ext]"
           }
         }
       },
@@ -52,14 +52,14 @@ module.exports = {
           options: {
             limit: 1000000,
             mimetype: "video/mp4",
-            name: "video/[name].[hash].[ext]"
+            name: "video/product-page-jumbo-[name].[hash].[ext]"
           }
         }
       }
     ]
   },
   plugins: [
-    new ExtractTextPlugin("css/[name].css"),
+    new ExtractTextPlugin("css/product-page-jumbo-[name].css"),
     new HtmlWebpackPlugin({
       inject: true,
       template: path.resolve(__dirname, "src/html/index.html"),

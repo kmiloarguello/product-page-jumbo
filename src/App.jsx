@@ -1,7 +1,10 @@
 import React, { Component } from "react";
+import styles from './css/index.css'
 
-export default class CA extends Component {
+export default class App extends Component {
   render() {
-    return <h1>Hola Mundo</h1>;
+    return <section className={styles.post_list}>
+      <a href="Hola">Hola</a>
+    </section>;
   }
 }

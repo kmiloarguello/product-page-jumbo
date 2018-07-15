@@ -1,0 +1,9 @@
+.clase-general{
+    & main {
+        & section{
+            & a{
+                color: red;
+            }
+        }
+    }
+}
