@@ -2,8 +2,8 @@ import React from 'react'
 import App from '../App.jsx'
 import {render} from 'react-testing-library'
 
-describe('Landing page', () => {
-    test('App component render at first time', () => {
+describe('Sanity check', () => {
+    test('true equals true', () => {
         expect(true).toBe(true);
     })
 })
